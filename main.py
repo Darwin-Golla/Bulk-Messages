@@ -32,7 +32,7 @@ for name in names:
     # time.sleep(sleep_time)
     attach = driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div/span[2]/div/div[2]/div[1]/div/div[2]')
     time.sleep(sleep_time)
-    attach.send_keys("Greetings of the Day ...! This is to intimate that for both 100% Qatari and non-Qatari companies filing of tax returns for the financial year 2021  began from 01st January 2022 onwards. To submit the tax returns please do contact us . Thank you ,Mr.Hafiz , AK & Partners. Mobile:  30947609 ")
+    attach.send_keys("Greetings of the Day ...! Have a nice day ")
     attach.send_keys(Keys.ENTER)
     time.sleep(sleep_time)
     print(name)
